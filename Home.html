@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <nav>
-        <ul>
-            <li><a href="Skills.html">Skills</a></li>
-            <li><a href="Experience.html">Experience</a></li>
-            <li><a href="Creativity.html">Creativity</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    </nav>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Qianning Lian</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Home - Qianning Lian</title>
+    <link rel="stylesheet" href="Assets/CSS/MyStyle.css">
+    <link rel="icon" type="image/x-icon" href="Assets/IMG/google-logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -21,33 +14,34 @@
             margin: 0;
             padding: 0;
             color: #333;
-         text-align: center;}
+            text-align: center;
+        }
         header {
             background-color: #333;
             color: #fff;
-            padding: 50px 0;
+            padding: 100px 0;
             text-align: center;
         }
         header h1 {
-            font-size: 3rem;
+            font-size: 4rem;
             margin: 0;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-top: 20px;
         }
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-         text-align: center;}
-        #about {
             text-align: center;
+        }
+        .intro {
             padding: 50px 0;
         }
-        #about h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-        #about p {
-            font-size: 1.2rem;
-            line-height: 1.6;
+        .intro p {
+            font-size: 1.3rem;
+            line-height: 1.8;
             max-width: 800px;
             margin: 0 auto;
         }
@@ -82,30 +76,40 @@
         }
     </style>
 </head>
-<header>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="creativity.html">Creativity</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
         <div class="container">
-            <img src="WechatIMG5.jpg" alt="Qianning Lian" style="width: 200px; border-radius: 50%; margin-bottom: 20px;">
             <h1>Qianning Lian</h1>
-            <p>Welcome to my personal website! I am Qianning Lian, a passionate web developer, creative designer, and lifelong learner. My goal is to bring innovative solutions to life through thoughtful design and data-driven development. Explore my journey, skills, and projects to learn more about my work and experiences.</p>
+            <p>Web Developer | Data Analyst | Creative Designer</p>
         </div>
     </header>
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>Hi, I'm Qianning Lian. I am currently pursuing a Master's degree in Information Studies at McGill University (2023-2025), and I hold a Bachelor's degree in Computer Science & Statistics from the University of Toronto (2019-2023). With a passion for creating interactive user experiences and analyzing data, I enjoy bringing creative ideas to life and solving complex problems through technology.</p>
+    <section class="intro container">
+        <h2>Welcome!</h2>
+        <p>Hello! I'm Qianning Lian, a passionate web developer, data analyst, and creative designer. I love creating intuitive user experiences and bringing creative ideas to life through technology. Here, you can learn more about my skills, experience, and the projects I've worked on. Feel free to explore and get in touch if you'd like to connect!</p>
     </section>
 
-    <section id="background" class="container">
-        <h2>Background</h2>
-        <p>I hold a Bachelor's degree in Computer Science from the University of Example (2017-2021). During my academic journey, I gained a deep understanding of software development principles, web technologies, and user experience design.</p>
+    <section class="container">
+        <h2>Explore More</h2>
+        <p>
+            <a href="About.html">About Me</a> | 
+            <a href="Experience.html">Experience</a> | 
+            <a href="Skills.html">Skills</a> | 
+            <a href="Creativity.html">Creativity</a> | 
+            <a href="Contact.html">Contact Me</a>
+        </p>
     </section>
-
-    <section id="hobbies" class="container">
-        <h2>Hobbies & Interests</h2>
-        <p>Outside of coding, I enjoy exploring my creative side through photography, graphic design, and playing the guitar. I find that these hobbies not only help me relax but also fuel my creativity, which directly impacts my work as a developer.</p>
-    </section>
-
-    
 
     <footer>
         <p>&copy; 2024 Qianning Lian. All rights reserved.</p>
