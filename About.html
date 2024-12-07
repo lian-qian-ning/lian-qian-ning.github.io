@@ -1,113 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Skills.html">Skills</a></li>
-            <li><a href="Experience.html">Experience</a></li>
-            <li><a href="Creativity.html">Creativity</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    </nav>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal CV website for Qianning Lian showcasing skills, experience, and creativity.">
     <title>About Me - Qianning Lian</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f0f0f0;
-            font-family: 'Roboto Mono', monospace;
-            margin: 0;
-            padding: 0;
-            color: #333;
-         text-align: center;}
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 50px 0;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-         text-align: center;}
-        #about {
-            text-align: center;
-            padding: 50px 0;
-        }
-        #about h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-        #about p {
-            font-size: 1.2rem;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        nav {
-            background-color: #333;
-            padding: 20px 0;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 30px 0;
-            margin-top: 50px;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/mystyle.css">
+    <link rel="icon" href="assets/img/favi.png" type="image/x-icon">
 </head>
-<header>
+<body>
+    <!-- Header Section -->
+    <header>
         <div class="container">
-            <img src="Assets/IMG/WechatIMG5.jpg" alt="Qianning Lian" style="width: 200px; border-radius: 50%; margin-bottom: 20px;">
             <h1>Qianning Lian</h1>
-            <p>Welcome to my personal website! I am Qianning Lian, a passionate web developer, creative designer, and lifelong learner. My goal is to bring innovative solutions to life through thoughtful design and data-driven development. Explore my journey, skills, and projects to learn more about my work and experiences.</p>
+            <p>Welcome to my CV website! I am a web developer, designer, and lifelong learner.</p>
         </div>
     </header>
 
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
     <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Hi, I'm Qianning Lian. I am currently pursuing a Master's degree in Information Studies at McGill University (2023-2025), and I hold a Bachelor's degree in Computer Science & Statistics from the University of Toronto (2019-2023). With a passion for creating interactive user experiences and analyzing data, I enjoy bringing creative ideas to life and solving complex problems through technology.</p>
+        <p>Hi, I'm Qianning Lian, currently pursuing a Master's in Information Studies at McGill University. I hold a Bachelor's degree in Computer Science & Statistics from the University of Toronto.</p>
     </section>
 
-    <section id="background" class="container">
-        <h2>Background</h2>
-        <p>I hold a Bachelor's degree in Computer Science from the University of Example (2017-2021). During my academic journey, I gained a deep understanding of software development principles, web technologies, and user experience design.</p>
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Data Analysis</li>
+            <li>Creative Design</li>
+        </ul>
     </section>
 
-    <section id="hobbies" class="container">
-        <h2>Hobbies & Interests</h2>
-        <p>Outside of coding, I enjoy exploring my creative side through photography, graphic design, and playing the guitar. I find that these hobbies not only help me relax but also fuel my creativity, which directly impacts my work as a developer.</p>
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
 
-    
-
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Qianning Lian. All rights reserved.</p>
     </footer>
