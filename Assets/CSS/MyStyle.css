@@ -72,7 +72,7 @@ nav ul li a:hover {
 #about p,
 #background p,
 #hobbies p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.4;
     margin: 0 auto;
     max-width: 800px;
@@ -89,7 +89,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: violet;
+    color: rgb(44, 44, 42);
 }
 
 /* Footer Styling */
