@@ -49,6 +49,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    padding: 10px 15px;
 }
 
 nav ul li a:hover {
@@ -62,22 +63,6 @@ nav ul li a:hover {
     padding: 20px;
     text-align: center;
     margin-top: 80px;
-}
-
-#about h2,
-#background h2,
-#hobbies h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-#about p,
-#background p,
-#hobbies p {
-    font-size: 1.4rem;
-    line-height: 1.4;
-    margin: 0 auto;
-    max-width: 800px;
 }
 
 /* Links */
