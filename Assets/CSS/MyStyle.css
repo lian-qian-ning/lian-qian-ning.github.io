@@ -27,7 +27,7 @@ nav {
     padding: 20px 0;
     position: fixed;
     top: 10px; /* Add space from the top */
-    width: calc(100% - 40px); /* Ensure some space for the rounded edges */
+    width: 100%; /* Ensure some space for the rounded edges */
     z-index: 1000;
     margin: 0 auto; /* Center the nav bar */
 }
@@ -82,7 +82,7 @@ nav ul li a:hover {
 
 /* Links */
 a:link, a:visited {
-    background-color: aliceblue;
+    background-color: #f0f0f0;
     color: black;
     padding: 14px 25px;
     text-align: center;
@@ -106,6 +106,6 @@ footer {
 /* Responsive Styling */
 @media (max-width: 576px) {
     body {
-        background-color: lightblue;
+        background-color: #f0f0f0;
     }
 }
