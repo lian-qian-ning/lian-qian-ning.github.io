@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me - Qianning Lian</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Assets/CSS/MyStyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -37,9 +37,12 @@
             color: #fff;
             text-decoration: none;
             font-weight: 600;
+            font-family: 'Roboto Mono', monospace;
+            transition: color 0.3s ease-in-out;
         }
         nav ul li a:hover {
             text-decoration: underline;
+            color: #f0a500;
         }
 
         form {
@@ -89,16 +92,17 @@
     </script>
 </head>
 <body>
-    <h2>Contact Me</h2>
-        <p>
-            <a href="index.html">Home</a> | 
-            <a href="About.html">About Me</a> | 
-            <a href="Experience.html">Experience</a> | 
-            <a href="Skills.html">Skills</a> | 
-            <a href="Creativity.html">Creativity</a> 
-        </p>
-    </section>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a> |
+            <li><a href="About.html">About Me</a> |
+            <li><a href="Experience.html">Experience</a> |
+            <li><a href="Skills.html">Skills</a></li> |
+            <li><a href="Creativity.html">Creativity</a></li>
+        </ul>
+    </nav>
 
+    <h2>Contact Me</h2>
     <section id="contact" class="container">
         <p>If you have any questions, opportunities, or would just like to connect, feel free to reach out. I'd love to hear from you!</p>
         <form onsubmit="handleSubmit(event)">
@@ -125,3 +129,4 @@
     </footer>
 </body>
 </html>
+
