@@ -31,12 +31,10 @@ nav {
     background-color: #333;
     padding: 20px 0;
     position: fixed;
-    top: 10px; /* Add space from the top */
-    width: 100%; /* Ensure some space for the rounded edges */
+    top: 0;
+    width: 100%;
     z-index: 1000;
-    margin: 0 auto; /* Center the nav bar */
 }
-
 
 nav ul {
     list-style-type: none;
@@ -54,11 +52,13 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    padding: 10px 15px;
+    font-family: 'Roboto Mono', monospace;
+    transition: color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: #f0a500;
 }
 
 /* Section Styling */
