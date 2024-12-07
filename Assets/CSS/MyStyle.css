@@ -29,6 +29,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
+    border-radius: 15px;
 }
 
 nav ul {
@@ -89,7 +90,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: rgb(44, 44, 42);
+    color: rgb(107, 107, 103);
 }
 
 /* Footer Styling */
