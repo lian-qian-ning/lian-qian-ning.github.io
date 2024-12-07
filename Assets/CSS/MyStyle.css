@@ -1,51 +1,109 @@
-h1{ text-align: center;}
-
-#Heading-section-top{
-    color: rgb(37, 165, 37);
-}
-
-.font-color-pink{
-    color: pink;
-}
-
-.font-size-10{
-    font-size: 15 rem;
-}
-
-.font-Geist-Mono{
-    font-family: 'Roboto Mono';
-    font-style: italic;
-    font-weight: 100;
-    text-indent:  Length(15px);
-    letter-spacing: normal;
-    line-height: 5;
-    word-spacing: normal;
-    white-space: nowrap;
+/* General Body Styling */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Roboto Mono', monospace;
+    color: #333;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
-a:link{
-    color:powderblue
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
 }
 
-a:link, a:visited{
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#about h2,
+#background h2,
+#hobbies h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p,
+#background p,
+#hobbies p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Links */
+a:link, a:visited {
     background-color: aliceblue;
     color: black;
     padding: 14px 25px;
     text-align: center;
-    text-decoration:none;
+    text-decoration: none;
     display: inline-block;
-
 }
 
-a:hover{
-    color:violet;
+a:hover {
+    color: violet;
 }
 
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+/* Responsive Styling */
 @media (max-width: 576px) {
     body {
-      background-color: lightblue;
+        background-color: lightblue;
     }
 }
-
-/* add comment */
