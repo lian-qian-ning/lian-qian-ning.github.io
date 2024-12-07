@@ -29,7 +29,6 @@ nav {
     top: 10px; /* Add space from the top */
     width: calc(100% - 40px); /* Ensure some space for the rounded edges */
     z-index: 1000;
-    border-radius: 15px; /* Rounded edges */
     margin: 0 auto; /* Center the nav bar */
 }
 
