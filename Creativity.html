@@ -4,34 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creativity - Qianning Lian</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/CSS/MyStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Background Image Styling */
+        body {
+            background: url('Assets/IMG/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        section {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px;
+            margin: 80px auto;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+
+        /* Gallery Styling */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
+    <h2>About Me</h2>
+        <p>
+            <a href="index.html">Home</a> | 
+            <a href="About.html">About</a> | 
+            <a href="Experience.html">Experience</a> | 
+            <a href="Skills.html">Skills</a> | 
+            <a href="Contact.html">Contact Me</a>
+        </p>
     <header>
-        <div class="container">
+        <section>
             <h1>Creativity</h1>
-        </div>
+            <p>Discover my personal design work and creative projects that showcase my skills and interests beyond academics and work.</p>
+        </section>
     </header>
 
-    <section id="Creativity" class="container">
-        <h2>Personal Design</h2>
-        <p>Highlighting personal design work, including any visual or graphic design projects.</p>
+    <main>
+        <section id="personal-design">
+            <h2>Personal Design</h2>
+            <p>Here are some of my personal design works, including visual and graphic design projects:</p>
+            <div class="gallery">
+                <img src="Assets/IMG/design1.jpg" alt="Design Project 1">
+                <img src="Assets/IMG/design2.jpg" alt="Design Project 2">
+                <img src="Assets/IMG/design3.jpg" alt="Design Project 3">
+            </div>
+        </section>
 
-        <h2>Projects</h2>
-        <p>Showcasing other creative projects, such as web design, artwork, or hobbies that demonstrate creativity.</p>
-    </section>
-    <nav>
-        <ul>
-            <li><a href="Home.html">About</a></li>
-            <li><a href="Skills.html">Skills</a></li>
-            <li><a href="Experience.html">Experience</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        <section id="creative-projects">
+            <h2>Creative Projects</h2>
+            <ul>
+                <li><strong>Web Design Portfolio:</strong> Interactive websites developed for personal and academic purposes.</li>
+                <li><strong>Artwork:</strong> Digital illustrations and traditional art pieces showcasing my artistic expression.</li>
+                <li><strong>Hobby Projects:</strong> DIY crafts, coding experiments, and other innovative creations.</li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 John Doe. All rights reserved.</p>
+        <p>&copy; 2024 Qianning Lian. All rights reserved.</p>
     </footer>
 </body>
 </html>
