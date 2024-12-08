@@ -3,27 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creativity - Qianning Lian</title>
-    <link rel="stylesheet" href="Assets/CSS/MyStyle.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <title>Creativity</title>
     <style>
         /* Background Image Styling */
         body {
-            background: url('Assets/IMG/background.jpg') no-repeat center center fixed;
+            background: url('background.jpg') no-repeat center center fixed;
             background-size: cover;
             margin: 0;
             font-family: 'Roboto Mono', monospace;
+            color: black;
+            text-align: center;
         }
 
         /* Navigation Bar */
         nav {
-            background-color: #fff;
-            padding: 10px 0;
+            background-color: #333;
+            padding: 20px 0;
             position: fixed;
             top: 0;
             width: 100%;
             z-index: 1000;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         nav ul {
             list-style-type: none;
@@ -36,7 +35,7 @@
             margin: 0 15px;
         }
         nav ul li a {
-            color: #000;
+            color: #fff;
             text-decoration: none;
             font-weight: 600;
         }
@@ -44,86 +43,59 @@
             text-decoration: underline;
         }
 
-        /* Section Styling */
         header {
-            background-color: #fff;
-            color: #000;
-            padding: 20px;
             margin-top: 80px;
-            max-width: 800px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
             border-radius: 10px;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            color: black;
         }
 
         section {
-            background-color: rgba(0, 0, 0, 0.6);
-            color: white;
-            padding: 20px;
             margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
             max-width: 800px;
             border-radius: 10px;
-        }
-
-        /* Gallery Styling */
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            justify-content: center;
-        }
-        .gallery img {
-            max-width: 300px;
-            border-radius: 10px;
+            color: black;
         }
 
         footer {
-            text-align: center;
+            margin-top: 20px;
             padding: 10px;
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: #333;
             color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
 <body>
-    
+    <h2>My Creativity</h2>
+    <p>
+        <a href="index.html">Home</a> | 
+        <a href="About.html">About</a> |
+        <a href="Experience.html">Experience</a> | 
+        <a href="Skills.html">Skills</a> | 
+        <a href="Contact.html">Contact Me</a>
+    </p>
+
     <header>
-        <h2>Creativity</h2>
-        <p>
-            <a href="index.html">Home</a> | 
-            <a href="About.html">About</a> | 
-            <a href="Experience.html">Experience</a> | 
-            <a href="Skills.html">Skills</a> | 
-            <a href="Contact.html">Contact Me</a>
-        </p>
+        <h1>Creativity</h1>
+        <p>Welcome to the Creativity page. Here, you can explore my creative works and projects!</p>
     </header>
 
-    <main>
-        <section id="personal-design">
-            <h2>Personal Design</h2>
-            <p>Here are some of my personal design works, including visual and graphic design projects:</p>
-            <div class="gallery">
-                <img src="Assets/IMG/design1.jpg" alt="Design Project 1">
-                <img src="Assets/IMG/design2.jpg" alt="Design Project 2">
-                <img src="Assets/IMG/design3.jpg" alt="Design Project 3">
-            </div>
-        </section>
-
-        <section id="creative-projects">
-            <h2>Creative Projects</h2>
-            <ul>
-                <li><strong>Web Design Portfolio:</strong> Interactive websites developed for personal and academic purposes.</li>
-                <li><strong>Artwork:</strong> Digital illustrations and traditional art pieces showcasing my artistic expression.</li>
-                <li><strong>Hobby Projects:</strong> DIY crafts, coding experiments, and other innovative creations.</li>
-            </ul>
-        </section>
-    </main>
+    <section>
+        <h2>Design Portfolio</h2>
+        <p>Here are some of my design projects that showcase my creative journey:</p>
+        <div class="gallery">
+            <img src="Assets/IMG/design1.jpg" alt="Design 1" style="max-width: 100%; border-radius: 10px;">
+            <img src="Assets/IMG/design2.jpg" alt="Design 2" style="max-width: 100%; border-radius: 10px;">
+        </div>
+    </section>
 
     <footer>
         <p>&copy; 2024 Qianning Lian. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
