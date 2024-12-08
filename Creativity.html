@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creativity</title>
     <style>
-        /* Background Image Styling */
         body {
-            background: url('background.jpg') no-repeat center center fixed;
-            background-size: cover;
             margin: 0;
             font-family: 'Roboto Mono', monospace;
             color: black;
@@ -43,13 +40,20 @@
             text-decoration: underline;
         }
 
+        .background {
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            padding-top: 100px; /* Adds space for the navigation bar */
+            min-height: 400px;
+        }
+
         header {
-            margin-top: 80px;
             padding: 20px;
             background-color: rgba(255, 255, 255, 0.8);
             border-radius: 10px;
             display: inline-block;
             color: black;
+            margin: 20px auto;
         }
 
         section {
@@ -70,19 +74,23 @@
     </style>
 </head>
 <body>
-    <h2>My Creativity</h2>
-    <p>
-        <a href="index.html">Home</a> | 
-        <a href="About.html">About</a> |
-        <a href="Experience.html">Experience</a> | 
-        <a href="Skills.html">Skills</a> | 
-        <a href="Contact.html">Contact Me</a>
-    </p>
 
-    <header>
-        <h1>Creativity</h1>
-        <p>Welcome to the Creativity page. Here, you can explore my creative works and projects!</p>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Experience.html">Experience</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="background">
+        <header>
+            <h1>Creativity</h1>
+            <p>Welcome to the Creativity page. Here, you can explore my creative works and projects!</p>
+        </header>
+    </div>
 
     <section>
         <h2>Design Portfolio</h2>
