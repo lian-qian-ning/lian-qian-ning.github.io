@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
     <style>
+        /* Updated navigation styling */
         nav {
-            background-color: #333;
+            background-color: transparent; /* Changed to transparent background */
             padding: 20px 0;
             position: fixed;
             top: 0;
@@ -26,26 +27,17 @@
             margin: 0 15px;
         }
         nav ul li a {
-            color: #fff;
+            color: #333; /* Changed to black text */
             text-decoration: none;
             font-weight: 600;
         }
         nav ul li a:hover {
             text-decoration: underline;
         }
-
-        section {
-            padding: 20px;
-            margin: 10px auto;
-            margin-top: 500;
-            max-width: 300px;
-            border-radius: 10px;
-        }
-
+        /* Original styles */
         body {
             background-color: #f0f0f0;
             font-family: 'Roboto Mono', monospace;
-            margin-top: 800;
             color: #333;
             text-align: center;
         }
@@ -78,63 +70,18 @@
         form button:hover {
             background-color: #555;
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 100px ;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
-        header p {
-            font-size: 1.5rem;
-            margin-top: 20px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
-        }
-        .intro {
-            padding: 50px 0;
-        }
-        .intro p {
-            font-size: 1.3rem;
-            line-height: 1.8;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 30px 0;
-            margin-top: 50px;
-        }
     </style>
-    <script>
-        function handleSubmit(event) {
-            event.preventDefault(); // Prevent form submission
-            alert('Message sent successfully!');
-            event.target.reset(); // Clear the form
-        }
-    </script>
 </head>
 <body>
-        <h2>Contact Me</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Experience.html">Experience</a></li>
-                <li><a href="Creativity.html">Creativity</a></li>
-                <li><a href="Contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
-    </section>
+    <h2>Contact Me</h2>
+    <p>
+        <a href="index.html">Home</a> | 
+        <a href="About.html">About</a> | 
+        <a href="Experience.html">Experience</a> | 
+        <a href="Creativity.html">Creativity</a> | 
+        <a href="Contact.html">Contact Me</a>
+    </p>
+
     <section id="contact" class="container">
         <p>If you have any questions, opportunities, or would just like to connect, feel free to reach out. I'd love to hear from you!</p>
         <form onsubmit="handleSubmit(event)">
@@ -150,16 +97,11 @@
             <button type="submit">Send Message</button>
         </form>
     </section>
+
     <div class="contact-info">
         <h2>Contact Information</h2>
         <p><strong>Call Me:</strong> +1 123-456-5678</p>
         <p><strong>Email Me:</strong> qianning.lian@mail.mcgill.ca</p>
-    </div>
-    <div style="margin-top: 20px;">
-        <a href="https://www.instagram.com/judyy__lian" target="_blank" style="color: #E1306C; text-decoration: none;">
-            <img src="Assets/IMG/Instagram_icon.png" alt="Instagram" style="width: 50px; height: 50px; margin-bottom: 10px;">
-            <span style="font-size: 1.2rem; display: block; margin-top: 10px;">Click the Link! Follow me on Instagram</span>
-        </a>
     </div>
     <footer>
         <p>&copy; 2024 Qianning Lian. All rights reserved.</p>
