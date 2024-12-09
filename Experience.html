@@ -69,10 +69,37 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        nav {
+            background-color: #333;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h2>About Me</h2>
+    <h2>My Experience</h2>
     <p>
         <a href="index.html">Home</a> | 
         <a href="About.html">About</a> | 
@@ -135,5 +162,9 @@
             });
         });
     </script>
+    
+    <footer>
+        <p>&copy; 2024 Qianning Lian. All rights reserved.</p>
+    </footer>
 </body>
 </html>
