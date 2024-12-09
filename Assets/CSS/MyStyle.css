@@ -88,3 +88,8 @@ footer {
     margin-top: 50px;
 }
 
+.timeline-item p,
+.timeline-item ul li {
+    line-height: 1.8; /* Adjusted line spacing for the timeline items */
+}
+
